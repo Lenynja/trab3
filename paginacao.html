@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Paginação by Lenynja</title>
+    <style type="text/css">
+      .pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+      }
+      .pagination-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        border: 2px solid #333;
+        border-radius: 50%;
+        margin: 0 10px;
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+      .pagination-item:hover {
+        background-color: #333;
+        color: #fff;
+      }
+      .pagination-item:hover:after {
+        content: '\263A';
+        display: block;
+        font-size: 20px;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pagination">
+      <div class="pagination-item">1</div>
+      <div class="pagination-item">2</div>
+      <div class="pagination-item">3</div>
+      <div class="pagination-item">4</div>
+    </div>
+  </body>
+</html>
